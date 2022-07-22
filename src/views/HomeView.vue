@@ -21,6 +21,25 @@
     
   }
 
+  // function getRecipes(name) {
+  //   if(!allRecipe.length){
+  //     spinner.value = true;
+  //   }
+  //   var recipeApi = `https://api.edamam.com/api/recipes/v2?type=public&q=${name}&app_id=bbb3e735&app_key=cbaf54fdf80717c6a9ac4a88872cefd7`;
+  //    fetch(recipeApi)
+  //       .then((response) => {
+  //       return response.json();
+  //     })
+  //       .then((data) => {
+  //       allData.value = data;
+  //       let array = allData.value.hits;
+  //       allRecipe.value = array.map((a) => a.recipe);
+  //       spinner.value = false;
+  //     })
+
+      
+  // }
+
   
 </script>
 
